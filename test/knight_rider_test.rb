@@ -42,7 +42,6 @@ class KnightRiderTest < Minitest::Test
     assert_equal 1001000000, knight_rider.total_payroll
   end
 
-
   def test_highest_grossing_actor
     assert_equal michael_knight, knight_rider.highest_grossing_actor
   end

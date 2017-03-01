@@ -1,4 +1,5 @@
-require 'pry'
+require 'date'
+
 class Character
 
   attr_reader :name,
@@ -21,5 +22,4 @@ class Character
     birth = Time.new(birth_year)
     age = Date.today.year - birth.year
   end
-
 end
