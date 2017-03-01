@@ -32,7 +32,7 @@ class FileWriter
 
   def open_file
     File.open(file_name, 'w') do |file|
-        file.puts output
+      file.puts output
     end
   end
 end
